@@ -18,15 +18,15 @@ import React, { Component } from 'react';
 //   }
 // }
 
-class App extends Component{
+class App extends Component {
   render(){
-    return React.createElement(
-      "h1",
-      null,
-      "Hello, world!!!!!!"
+    return(
+    <div>
+      <label html For= "bar">bar</label>
+      <input type= "text" onClick={() => {console.log("I am clicked")}}/ >
+    </div>
     )
   }
 }
-
 
 export default App;

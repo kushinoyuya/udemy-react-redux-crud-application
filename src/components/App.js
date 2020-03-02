@@ -6,7 +6,6 @@ import { dispatch } from 'rxjs/internal/observable/range';
 class App extends Component {
   render(){
     const props = this.props
-
     return(
       <React.Fragment>
         <div>value: { props.value }</div>
